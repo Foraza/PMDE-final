@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 // Project imports:
 import 'package:ifsp_aluno/components/ifsp_app_bar.dart';
-import 'package:provider/provider.dart';
 
 class IFSPBaseScreen extends StatelessWidget {
   final Widget child;

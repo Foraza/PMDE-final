@@ -1,4 +1,3 @@
-import 'package:dropdownfield2/dropdownfield2.dart';
 import 'package:flutter/material.dart';
 import 'package:ifsp_aluno/components/ifsp_buttons.dart';
 import 'package:ifsp_aluno/model/evento.dart';
@@ -158,6 +157,5 @@ class CalendarDialog extends StatelessWidget {
         )
       ],
     );
-    ;
   }
 }

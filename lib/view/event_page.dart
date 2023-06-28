@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:ifsp_aluno/components/ifsp_app_bar.dart';
 import 'package:ifsp_aluno/components/ifsp_event_body.dart';
-import 'package:ifsp_aluno/model/evento.dart';
 
 class EventPage extends StatelessWidget {
   const EventPage({super.key});

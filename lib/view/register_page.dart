@@ -255,7 +255,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             onPressed: () async {
                               bool register = await _register(context);
                               if (register) {
-                                Navigator.of(context).pushReplacementNamed('/home');
+                                Navigator.of(context).pushReplacementNamed('/login');
                               }
                             },
                             // onPressed: () => _register(context),
