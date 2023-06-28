@@ -1,0 +1,44 @@
+{
+    "periodos": [
+        {
+            "periodo": 1,
+            "componentes": [
+                {
+                    "id": 304148,
+                    "codigo": "ED1D2",
+                    "nome": "Estrutura de Dados I",
+                    "periodo-cursado": "2021/1",
+                    "frequencia": 85,
+                    "conceito": 8.5,
+                    "situacao": "Aprovado",
+                    "tipo-componente": "curricular | eletivo | optativo .."
+                },
+                {
+                    "id": 304148,
+                    "codigo": "ED1D2",
+                    "nome": "Estrutura de Dados I",
+                    "periodo": "2021/1",
+                    "frequencia": 85,
+                    "conceito": 8.5,
+                    "situacao": "Aprovado",
+                    "tipo-componente": "curricular | eletivo | optativo .."
+                }
+            ]
+        },
+        {
+            "periodo": 4,
+            "componentes": [
+                {
+                    "id": 304158,
+                    "codigo": "TP1D4",
+                    "nome": "Técnicas de Programação I",
+                    "periodo": "2022/1",
+                    "frequencia": 90,
+                    "conceito": 7,
+                    "situacao": "Aprovado",
+                    "tipo-componente": "curricular | eletivo | optativo .."
+                }
+            ]
+        }
+    ]
+}

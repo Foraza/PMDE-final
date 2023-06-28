@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "52487442620",
+    "project_id": "ifsp-aluno",
+    "storage_bucket": "ifsp-aluno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52487442620:android:878d3b48d4ea6315be00b9",
+        "android_client_info": {
+          "package_name": "br.edu.ifsp.ifsp_aluno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52487442620-4f94eqglsfa393opa8ovtpdevidbun4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pztt6VfEHvpNywlAYn7NEoJmEbGDv-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52487442620-4f94eqglsfa393opa8ovtpdevidbun4c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52487442620-ljborbcvbofd560vhj93a9vhdn4qnuc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.edu.ifsp.ifspAluno"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

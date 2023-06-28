@@ -1,0 +1,28 @@
+repos:
+#Simply add import_sorter: ^4.6.0 to your pubspec.yaml's dev_dependencies.
+#Rodar pre-commit autoupdate se mensagem de warning sobre 'rev' aparecer
+-   repo: https://github.com/fluttercommunity/import_sorter
+    rev: 'f350497a11b1285c695595049e95a420068e7a9f'
+    hooks:
+    -   id: flutter-import-sorter
+        always_run: true
+-   repo: local
+    hooks:
+    -   id: flutter-format      # ID interno do hook
+        name: Flutter Formatter # Titulo do hook no console
+        entry: flutter format -l 120 -o none . # Comando do hook
+        language: system        # Sinaliza que entry é um comando do sistema
+        pass_filenames: false   # Hook não é executado com arquivos por argumentos
+        always_run: true        # Hook não depende de stagging para executar
+    -   id: flutter-analyzer
+        name: Flutter Analyzer
+        entry: flutter analyze
+        pass_filenames: false
+        always_run: true
+        language: system
+    -   id: flutter-tester
+        name: Flutter Tests
+        entry: flutter test
+        pass_filenames: false
+        always_run: true
+        language: system
